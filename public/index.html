@@ -25,6 +25,9 @@
     <!-- Nav CSS -->
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
 
+    <!-- Header CSS -->
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+
     <!-- Tweet CSS -->
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
 
@@ -45,7 +48,32 @@
       </div>
     </nav>
 
-    <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <header>
+      <div>
+          <img src="/images/profile-hex.png"> 
+      </div>
+      <br>
+      <div>
+          <h2>Shilpa Pulipati</h2>
+      </div>
+  </header>
+
+     <!-- Page-specific (main) content here -->
+     <main class="container">
+      <section id = "tweet-new" class="new-tweet">
+        <div class = "errormessage"> </div>
+        <form class = "tweet-submit" action="/tweets" method="POST">
+          <label for="tweet-text">What are you humming about?</label>
+          <textarea name="text" id="tweet-text"></textarea>
+          <div class = "tweet-align">
+            <button class="btn-primary" type="submit">Tweet</button>
+            <output class="counter" src="/scripts/composer-char-counter.js">140</output>
+          </div>
+        </form>
+      </section>
+
+      <section id = "container-tweet">
+      </section>
+    </main>
   </body>
 </html>
