@@ -30,3 +30,16 @@ span {
   align-items: center; 
   flex-direction: column;
 }
+
+/*Class for the arrow button */
+.arrowbutton{
+  background-color: transparent;
+  color: #db0909e8;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
