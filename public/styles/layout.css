@@ -31,5 +31,16 @@ body {
   vertical-align: middle;
   background-color: #ecf4ed;
   padding-top: 20px;
+  align-items: center;
+  flex-direction: column;
 
  }
+
+  /* For Responsive Design*/
+  @media (min-width: 1024px) {
+    main{
+      margin: 120px 50px 50px 50px;
+      width: 50%;
+      float: right;
+    }
+  }
