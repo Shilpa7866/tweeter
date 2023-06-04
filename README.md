@@ -7,7 +7,7 @@ This repository is the starter code for the project: Students will fork and clon
 # Final Product screenshot
 
 !["Screenshot of Tweeter home page"](https://github.com/Shilpa7866/tweeter/blob/master/public/images/Tweeter%20home%20page.png)
-![Screenshot of Tweeter error message"(https://github.com/Shilpa7866/tweeter/blob/master/public/images/Tweeter%20with%20error%20msg.png)]
+![Screenshot of Tweeter error message"](https://github.com/Shilpa7866/tweeter/blob/master/public/images/Tweeter%20with%20error%20msg.png)
 
 ## Getting Started
 
